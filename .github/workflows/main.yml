@@ -18,3 +18,5 @@ jobs:
           cd ../home/note-app
           git pull
           echo 'Successfully pulled form repo :D'
+          yarn build
+          echo 'Build Successfully'
