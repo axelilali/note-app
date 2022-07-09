@@ -17,6 +17,8 @@ jobs:
         script: |
           cd ../home/note-app
           git pull
-          echo 'Successfully pulled form repo :D'
+          echo 'Successfully pulled form repo'
+          yarn install
+          echo 'Install Packages'
           yarn build
           echo 'Build Successfully'
