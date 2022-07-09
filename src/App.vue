@@ -1,5 +1,7 @@
 <template>
-  <h1>Note App</h1>
+  <div>
+    <h1>Github Actions</h1>
+  </div>
 </template>
 
 <script>
